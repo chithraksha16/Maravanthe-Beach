@@ -1,12 +1,16 @@
 import './App.css'
+import NavBar from './components/NavBar'
+import Home from './Home'
 
 function App() {
   
 
   return (
     <>
-    <div className='bg-amber-500'>
-      <h1>Maravanthe</h1>
+    <NavBar/>
+    <div>
+      <Home/>
+      
     </div>
     </>
   )
